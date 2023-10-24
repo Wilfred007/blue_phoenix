@@ -4,7 +4,7 @@ export default function Home() {
    
   return (
     <>
-      <div className="bg-gradient-to-r from-black ">
+      <div className="bg-gradient-to-r from-black to-gray-800 ">
         <Image
           src="/ban.jpg"
           alt="Banner"
@@ -13,9 +13,11 @@ export default function Home() {
           className="mix-blend-overlay"
         />
       </div>
-      <div className="p-10 -mt-[215px] sm:-mt-[200px]">
-        <h1 className="text-[30px] font-bold text-white">We Nourish Talent</h1>
-        <p className="text-white mb-5 text-sm sm:w-1/2">
+      <div className="p-10 -mt-[215px] sm:-mt-[150px]">
+        <h1 className="text-[30px] font-bold text-white sm:text-[20px]">
+          We Nourish Talent
+        </h1>
+        <p className="text-white mb-5 text-sm sm:w-1/2 sm:text-xs">
           We provide comprehensive Human Resource Services with deep commitment
           to helping organizations succeed by optimizing thier human capital.
         </p>
