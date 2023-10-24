@@ -13,9 +13,9 @@ export default function Home() {
           className="mix-blend-overlay"
         />
       </div>
-      <div className="p-10 -mt-[215px]">
+      <div className="p-10 -mt-[215px] sm:-mt-[200px]">
         <h1 className="text-[30px] font-bold text-white">We Nourish Talent</h1>
-        <p className="text-gray-200 mb-5 text-sm sm:w-1/2">
+        <p className="text-white mb-5 text-sm sm:w-1/2">
           We provide comprehensive Human Resource Services with deep commitment
           to helping organizations succeed by optimizing thier human capital.
         </p>
@@ -23,10 +23,10 @@ export default function Home() {
       <section>
         <div className="flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
           <div className="flex flex-col space-y-12 md:w-1/2">
-            <h2 className="max-w-md text-4xl font-bold text-center text-gray-800">
+            <h2 className="max-w-md text-3xl font-bold text-center text-gray-800">
               Stay ahead, choose us
             </h2>
-            <p className="max-w-s text-center text-gray-700 md:text-left">
+            <p className="max-w-s text-center text-gray-700 md:text-left mx-10">
               We offer a wide range of Human Resource Solutions designed to
               streamline processes, enhance employment engagement and drive
               overall business success.
@@ -40,12 +40,89 @@ export default function Home() {
                     01
                   </div>
                   <h3 className="text-base font-bold md:mb-4 md:hidden">
-                    TALENT MANAGEMENT
+                    Talent Management
                   </h3>
                 </div>
               </div>
               <div>
-                <h3 className="hidden mb-4 text-lg font-bold md:block">TALENT MANAGEMENT</h3>
+                <h3 className="hidden mb-4 text-lg font-bold md:block">
+                  Talent Management
+                </h3>
+                <p className="text-gray-500 mx-10">
+                  We assist in identifying and recruiting top talent that aligns
+                  with specific organizational cultures and visions. This
+                  includes job posting, resume screening, interviewing, and
+                  candidate selection.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+              <div className="rounded-l-full bg-blue-200 md:bg-transparent">
+                <div className="flex items-center space-x-2">
+                  <div className="px-4 py-2 text-white rounded-full md:py-1 bg-blue-900">
+                    02
+                  </div>
+                  <h3 className="text-base font-bold md:mb-4 md:hidden">
+                    Human Resource Consulting
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <h3 className="hidden mb-4 text-lg font-bold md:block">
+                  Human Resource Consulting
+                </h3>
+                <p className="text-gray-500 mx-10">
+                  Our team of experienced HR professionals can provide expert
+                  guidance on a wide range of HR issues, from compliance and
+                  policies to employee relations and performance management.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+              <div className="rounded-l-full bg-blue-200 md:bg-transparent">
+                <div className="flex items-center space-x-2">
+                  <div className="px-4 py-2 text-white rounded-full md:py-1 bg-blue-900">
+                    03
+                  </div>
+                  <h3 className="text-base font-bold md:mb-4 md:hidden">
+                    Employee Training and Development
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <h3 className="hidden mb-4 text-lg font-bold md:block">
+                  Employee Training and Development
+                </h3>
+                <p className="text-gray-500 mx-10">
+                  We offer customized training programs to help individuals in
+                  workspaces continually develop their skills, fostering a
+                  culture of growth and innovation.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+              <div className="rounded-l-full bg-blue-200 md:bg-transparent">
+                <div className="flex items-center space-x-2">
+                  <div className="px-4 py-2 text-white rounded-full md:py-1 bg-blue-900">
+                    04
+                  </div>
+                  <h3 className="text-base font-bold md:mb-4 md:hidden">
+                    Human Resource Technology Solutions
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <h3 className="hidden mb-4 text-lg font-bold md:block">
+                  Human Resource Technology Solutions
+                </h3>
+                <p className="text-gray-500 mx-10">
+                  We help to implement and integrate advanced HR software and
+                  systems to streamline processes and provide actionable
+                  insights for decision-making.
+                </p>
               </div>
             </div>
           </div>

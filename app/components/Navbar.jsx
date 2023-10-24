@@ -7,7 +7,7 @@ function Navbar() {
     <nav class="relative mx-auto p-6 shadow-md">
         <div class="flex items-center justify-between">
             <div class="pt-2">
-                <Image src="/BlueLogo.jpg" alt="" class="" height={50} width={50} />
+                <Image src="/BlueLogo.jpg" alt="" class="" height={70} width={70} />
             </div>
             <div class="hidden md:flex space-x-6">
                 <a href="#" class="hover:text-gray-400 text-sm">About</a>
