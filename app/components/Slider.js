@@ -36,14 +36,14 @@ const slider = ({slides}) => {
               />
               {index === current && (
                 <>
-                  <h1 className="p-5 text-gray-500">{slide.words}</h1>
-                  <h1 className="text-3xl text-green-400 text-center p-4 font-extrabold">
+                  <h1 className="p-5 text-gray-500 italic">{slide.words}</h1>
+                  <h1 className="text-2xl sm:text-3xl text-green-400 text-center p-4 font-extrabold">
                     {slide.author}
                   </h1>
                   <h1 className="font-bold text-gray-400 text-center">
                     {slide.post}
                   </h1>
-                  <h1 className="font-bold text-center mt-4">
+                  <h1 className="font-bold text-center mt-3">
                     {slide.company}
                   </h1>
                 </>
@@ -58,6 +58,7 @@ const slider = ({slides}) => {
         })}
       </div>
     </div>
+    
   );
 }
 
