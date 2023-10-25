@@ -1,25 +1,75 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 function Navbar() {
   return (
-    <nav class="relative mx-auto p-4 shadow-md">
-        <div class="flex items-center justify-between">
-            <div class="pt-2">
-                <Image src="/BlueLogo.jpg" alt="" class="" height={50} width={50} />
-            </div>
-            <div class="hidden md:flex space-x-6">
-                <a href="#" class="hover:text-gray-400 text-sm">About</a>
-                <a href="#" class="hover:text-gray-400 text-sm">Services</a>
-                <a href="#" class="hover:text-gray-400 text-sm">Our Team</a>
-                <a href="#" class="hover:text-gray-400 text-sm">Community</a>
-            </div>
+    <>
+      <div class="pt-2">
+        <Image src="/BlueLogo.jpg" alt="" class="" height={50} width={50} />
+      </div>
+      <ul>
+        <li>
+          <Link href="#" class="hover:text-gray-400 text-sm">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link href="#" class="hover:text-gray-400 text-sm">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link href="#" class="hover:text-gray-400 text-sm">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link href="#" class="hover:text-gray-400 text-sm">
+            About
+          </Link>
+        </li>
 
-           <Link href='#' className='hidden md:block px-6 bg-blue-900 p-1.5 rounded-md text-white'>Career</Link>
-        </div>
-    </nav>
-  )
+        <li>
+          <Link href="#">Career</Link>
+        </li>
+      </ul>
+      {/* ------------Mobile button------------------ */}
+      <div>
+        <AiOutlineMenu size={20} />
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <Link href="#" class="hover:text-gray-400 text-sm">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link href="#" class="hover:text-gray-400 text-sm">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link href="#" class="hover:text-gray-400 text-sm">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link href="#" class="hover:text-gray-400 text-sm">
+              About
+            </Link>
+          </li>
+
+          <li>
+            <Link href="#">Career</Link>
+          </li>
+        </ul>
+      </div>
+    </>
+  );
 }
 
 export default Navbar

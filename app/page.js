@@ -141,7 +141,7 @@ export default function Home() {
       <h1 className="text-2xl font-bold text-center text-gray-700 mt-4">
         We provide industry solutions
       </h1>
-      <p className="p-5 text-gray-700 p-10">
+      <p className="p-10 sm:p-[90px] text-gray-700">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, minima
         non aliquam mollitia ex dolores provident, molestiae numquam nulla vero
         tenetur, quisquam eaque quod cum nam suscipit veritatis facere aut
@@ -150,24 +150,24 @@ export default function Home() {
         sequi tenetur quam!
       </p>
       <div className="flex flex-col sm:flex-row">
-        <button className="h-[300px] hover:bg-gray-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 ml-5">
+        <button className="h-[300px] hover:bg-gray-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:ml-5">
           <h1 className="font-bold text-2xl mb-5">Strategic Management</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!
         </button>
-        <button className="h-[300px] hover:bg-blue-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 mr-5">
+        <button className="h-[300px] hover:bg-blue-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
           <h1 className="font-bold text-2xl mb-5">Sound Advisory</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!
         </button>
       </div>
       <div className="flex flex-col sm:flex-row">
-        <button className="h-[300px] hover:bg-black hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 ml-5">
+        <button className="h-[300px] hover:bg-black hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:ml-5">
           <h1 className="font-bold text-2xl mb-5">Employee Satisfaction</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!
         </button>
-        <button className="h-[300px] hover:bg-green-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 mr-5">
+        <button className="h-[300px] hover:bg-green-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
           <h1 className="font-bold text-2xl mb-5">A Thriving Workforce</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!

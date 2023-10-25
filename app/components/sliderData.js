@@ -1,10 +1,10 @@
 export const sliderData = [
   {
-    author: "James Cavier",
-    post: "General Manager",
-    company: "Green Works INC",
+    author: "Nanchang Titus",
+    post: "Unit Head",
+    company: "Ace Premier",
     words:
-      "Blue Phoenix has played a key role in resurrecting my company through trainings and consultations",
+      "BluePhoenix Consulting gives me a balanced workforce. I rely strongly on them for My Human Resource Management.",
   },
   {
     author: "Richard Quest",

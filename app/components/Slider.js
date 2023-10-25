@@ -43,7 +43,7 @@ const slider = ({slides}) => {
                   <h1 className="font-bold text-gray-400 text-center">
                     {slide.post}
                   </h1>
-                  <h1 className="font-bold text-center mt-3">
+                  <h1 className="font-bold text-center">
                     {slide.company}
                   </h1>
                 </>
