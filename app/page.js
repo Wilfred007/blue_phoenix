@@ -150,12 +150,12 @@ export default function Home() {
         sequi tenetur quam!
       </p>
       <div className="flex flex-col sm:flex-row">
-        <button className="h-[300px] hover:bg-gray-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:ml-5">
+        <button className="h-[300px] hover:bg-purple-800 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:ml-5">
           <h1 className="font-bold text-2xl mb-5">Strategic Management</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!
         </button>
-        <button className="h-[300px] hover:bg-blue-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
+        <button className="h-[300px] hover:bg-blue-800 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
           <h1 className="font-bold text-2xl mb-5">Sound Advisory</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!
@@ -167,7 +167,7 @@ export default function Home() {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!
         </button>
-        <button className="h-[300px] hover:bg-green-400 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
+        <button className="h-[300px] hover:bg-green-800 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
           <h1 className="font-bold text-2xl mb-5">A Thriving Workforce</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!

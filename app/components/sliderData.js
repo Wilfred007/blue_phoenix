@@ -9,7 +9,7 @@ export const sliderData = [
   {
     author: "Richard Quest",
     post: "CEO",
-    company: "Great Works Groups",
+    company: "Great Work Groups",
     words:
       "Blue Phoenix has played a key role in resurrecting my company through trainings and consultations",
   },
