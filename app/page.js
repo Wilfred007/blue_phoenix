@@ -141,7 +141,7 @@ export default function Home() {
       <h1 className="text-2xl font-bold text-center text-gray-700 mt-4">
         We provide industry solutions
       </h1>
-      <p className="p-5 text-gray-700">
+      <p className="p-5 text-gray-700 p-10">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, minima
         non aliquam mollitia ex dolores provident, molestiae numquam nulla vero
         tenetur, quisquam eaque quod cum nam suscipit veritatis facere aut
