@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="bg-gradient-to-r from-black to-gray-600 ">
         <Image
-          src="/ban.jpg"
+          src="/naso.jpg"
           alt="Banner"
           height={800}
           width={1200}
