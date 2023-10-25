@@ -1,10 +1,15 @@
 import Image from 'next/image'
+import { sliderData } from './components/sliderData';
+import Slider from './components/Slider';
+;
 
 export default function Home() {
+
+
    
   return (
     <>
-      <div className="bg-gradient-to-r from-black to-gray-800 ">
+      <div className="bg-gradient-to-r from-black to-gray-600 ">
         <Image
           src="/ban.jpg"
           alt="Banner"
@@ -13,20 +18,20 @@ export default function Home() {
           className="mix-blend-overlay"
         />
       </div>
-      <div className="p-10 -mt-[215px] sm:-mt-[150px]">
-        <h1 className="text-[30px] font-bold text-white sm:text-[20px]">
+      <div className="p-10 -mt-[130px] md:-mt-[280px]">
+        <h1 className="text-[20px] font-bold text-white sm:text-[80px]">
           We Nourish Talent
         </h1>
-        <p className="text-white mb-5 text-sm sm:w-1/2 sm:text-xs">
+        <p className="text-white mb-5 text-xs sm:w-1/2 md:text-xl">
           We provide comprehensive Human Resource Services with deep commitment
           to helping organizations succeed by optimizing thier human capital.
         </p>
       </div>
       <section>
-        <div className="flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+        <div className="flex flex-col px-4 mx-auto mt-3 space-y-12 md:space-y-0 md:flex-row">
           <div className="flex flex-col space-y-12 md:w-1/2">
-            <h2 className="max-w-md text-3xl font-bold text-center text-gray-800">
-              Stay ahead, choose us
+            <h2 className="max-w-md text-xl sm:text-3xl sm:font-extrabold font-extrabold text-center text-gray-800">
+              Stay Ahead, Choose Us
             </h2>
             <p className="max-w-s text-center text-gray-700 md:text-left mx-10">
               We offer a wide range of Human Resource Solutions designed to
@@ -130,6 +135,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className='mt-5'>
+      <Slider slides={sliderData} />
+      </div>
     </>
   );
 }
