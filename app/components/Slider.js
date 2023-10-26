@@ -36,7 +36,7 @@ const slider = ({slides}) => {
               />
               {index === current && (
                 <>
-                  <h1 className="p-5 text-gray-500 italic">{slide.words}</h1>
+                  <h1 className="p-5 text-center text-gray-500 italic">{slide.words}</h1>
                   <h1 className="text-2xl sm:text-3xl text-green-400 text-center p-4 font-extrabold">
                     {slide.author}
                   </h1>

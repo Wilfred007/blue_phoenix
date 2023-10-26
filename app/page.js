@@ -167,7 +167,7 @@ export default function Home() {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!
         </button>
-        <button className="h-[300px] hover:bg-green-800 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
+        <button className="h-[300px] hover:bg-blue-500 hover:text-white ease-in duration-500 p-10 outline outline-offset-0 outline-1 sm:mr-5">
           <h1 className="font-bold text-2xl mb-5">A Thriving Workforce</h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           delectus porro non!

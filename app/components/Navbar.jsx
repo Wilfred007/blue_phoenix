@@ -31,26 +31,27 @@ function Navbar() {
                 Our Team
               </Link>
             </li>
-            <li className="p-4">
-              <Link href="#" class="hover:text-gray-400 text-sm">
-                About
-              </Link>
-            </li>
-
-            <li className="p-3 px-6  rounded-lg bg-blue-700 text-white">
-              <Link href="#">Career</Link>
-            </li>
+           
+            <div>
+              <li className="p-3 px-5 rounded-lg bg-blue-700 text-white">
+                <Link href="#">Career</Link>
+              </li>
+            </div>
           </ul>
           {/* ------------Mobile button------------------ */}
           <div onClick={handleNav} className="block md:hidden z-10">
-            {nav ? <AiOutlineClose className='text-white cursor-pointer' size={20} /> : <AiOutlineMenu className='cursor-pointer' size={20} />}
+            {nav ? (
+              <AiOutlineClose className="text-white cursor-pointer" size={20} />
+            ) : (
+              <AiOutlineMenu className="cursor-pointer" size={20} />
+            )}
           </div>
 
           <div
             className={
               nav
                 ? "md:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-white ease-in duration-300"
-                : "md:hidden absolute top-[-100%] left-[0] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-white text-white ease-in duration-300"
+                : "md:hidden absolute top-[0] left-[100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-white text-white ease-in duration-300"
             }
           >
             <ul>
