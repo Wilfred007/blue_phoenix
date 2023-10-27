@@ -14,7 +14,7 @@ function Navbar() {
     <>
       <div className="">
         <div class="max-w-[1240px] m-auto flex justify-between items-center p-4 ">
-          <Image src="/BlueLogo.jpg" alt="" class="" height={50} width={50} />
+          <Image src="/BlueLogo.jpg" alt="" class="" height={50} width={50} className='rounded-md' />
           <ul className="hidden md:flex md:justify-between ">
             <li className="p-4">
               <Link href="#" class="hover:text-gray-400 text-sm">
@@ -31,7 +31,12 @@ function Navbar() {
                 Our Team
               </Link>
             </li>
-           
+            <li className="p-4">
+              <Link href="#" class="hover:text-gray-400 text-sm">
+                Contact Us
+              </Link>
+            </li>
+
             <div>
               <li className="p-3 px-5 rounded-lg bg-blue-700 text-white">
                 <Link href="#">Career</Link>
@@ -66,6 +71,12 @@ function Navbar() {
               <li className="p-4 text-2xl hover:text-gray-500">
                 <Link href="#" class="">
                   Our Team
+                </Link>
+              </li>
+
+              <li className="p-4 text-2xl hover:text-gray-500">
+                <Link href="#" class="">
+                  Contact Us
                 </Link>
               </li>
               <li className="p-4 text-2xl hover:text-gray-500">
